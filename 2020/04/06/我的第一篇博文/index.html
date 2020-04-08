@@ -17,7 +17,7 @@
   <meta name="description" content="描述">
   <meta name="author" content="Zheng Yao">
   <meta name="keywords" content="">
-  <title>我的第一篇博文 - Yao zheng&#39;s blog</title>
+  <title>Markdown语法手册 - Yao zheng&#39;s blog</title>
 
   <link  rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/5.12.1/css/all.min.css" />
 <link  rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
@@ -131,7 +131,7 @@
                   
                   <span class="post-meta">
                     <i class="far fa-chart-bar"></i>
-                    0 字
+                    183 字
                   </span>
                 
 
@@ -141,7 +141,7 @@
                       <i class="far fa-clock"></i>
                     
                     
-                    1
+                    2
                      分钟
                   </span>
                 
@@ -170,7 +170,47 @@
           <div class="post-content mx-auto" id="post">
             
             <div class="markdown-body">
-              
+              <p>本手册搬运自W3school:<a href="https://www.w3cschool.cn/markdownyfsm/cbx1e7.html" target="_blank" rel="noopener" title="语法手册">markdown语法手册</a></p>
+<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p>#h1<br>##h2<br>### h3<br>####h4</p>
+<h3 id="段落换行"><a href="#段落换行" class="headerlink" title="段落换行"></a>段落换行</h3><p>两个空格，然后回车</p>
+<h3 id="区块引用"><a href="#区块引用" class="headerlink" title="区块引用"></a>区块引用</h3><blockquote>
+<p>引用的话只需要在开头的一行加上”&gt;”符号就行了。</p>
+</blockquote>
+<blockquote>
+<p>这是第二段，并且可以嵌套使用”&gt;”    </p>
+<blockquote>
+<p>例如这句</p>
+</blockquote>
+</blockquote>
+<h3 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h3><ul>
+<li>无序列表</li>
+<li>无序列表</li>
+</ul>
+<ol>
+<li><p>有序列表</p>
+</li>
+<li><p>有序列表</p>
+<blockquote>
+<p>列表中的引用，需要缩进sadasdas</p>
+</blockquote>
+<blockquote>
+<p>sdsadsdsa</p>
+</blockquote>
+<blockquote>
+<p>sdfdsfsdfsdf</p>
+</blockquote>
+</li>
+<li><p>有序列表</p>
+<pre><code> &lt; 代码写在这里 &gt;</code></pre></li>
+</ol>
+<h3 id="代码区块"><a href="#代码区块" class="headerlink" title="代码区块"></a>代码区块</h3><pre><code>    缩进两次就行</code></pre><h3 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h3><hr>
+<p>空白的一行内加入三个连续的—或***</p>
+<hr>
+<h3 id="链接"><a href="#链接" class="headerlink" title="链接"></a>链接</h3><p>[链接文字][1]<br>[1]:<a href="http://example.com" target="_blank" rel="noopener">http://example.com</a> “title”</p>
+<h3 id="强调"><a href="#强调" class="headerlink" title="强调"></a>强调</h3><p><em>斜体</em>  一个*<br><strong>加粗</strong> 两个 ** </p>
+<h3 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h3><p>用反引号括住<code>print():()</code></p>
+<h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p>和插入链接很像<br><img src="/Users/yaozheng/Desktop/1.png" srcset="/img/loading.gif" alt="示例图片"></p>
+
             </div>
             <hr>
             <div>
@@ -350,7 +390,7 @@
     var typed = new Typed('#subtitle', {
       strings: [
         '  ',
-        "我的第一篇博文&nbsp;",
+        "Markdown语法手册&nbsp;",
       ],
       cursorChar: "_",
       typeSpeed: 70,
